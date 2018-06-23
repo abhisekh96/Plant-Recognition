@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MedicinalPlantProject</title>
+	<style>
+	#hPlantName {
+		text-align: center;
+		font-size: 2em;
+		font-weight: bold;
+	}
+	#hBotanicalName, #botanicalName {
+		display: inline-block;
+	}
+	#hFamily, #family {
+		display: inline-block;
+	}
+	.a {
+		font-weight: bold;
+		font-size: 1.17em;
+	}
+	.b {
+		font-size: 1.17em;
+	}
+	body {
+		font-family: "Times New Roman", Times, serif;
+	}
+	span {
+		font-family: "Times New Roman", Times, serif;
+		font-size: 1.17em;
+	}
+	</style>
+</head>
+<body>
+	<div id="hPlantName">{{hPlantName}}</div>
+	<div id="hBotanicalName" class="a">{{hBotanicalName}}</div>
+	<div id="botanicalName" class="b">{{botanicalName}}</div><br><br>
+	<div id="hFamily" class="a">{{hFamily}}</div>
+	<div id="family" class="b">{{family}}</div><br><br>
+	<div id="hAbout" class="a">{{hAbout}}</div><br>
+	<div id="about" class="b">{{about}}</div><br>
+	<div id="hMedicinalUses" class="a">{{hMedicinalUses}}</div>
+	<div id="medicinalUses"><pre><span>{{medicinalUses}}</span></pre></div>
+</body>
+</html>
